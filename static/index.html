@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cooking Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="/static/app.js"></script>
+  <script>
+    window.API_BASE = '';
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🍳 Cooking Assistant</h1>
+      <div class="user">
+        <input id="userId" placeholder="Enter your name" />
+        <button id="startBtn">Start</button>
+      </div>
+    </header>
+    <main id="chat"></main>
+    <footer>
+      <input id="message" placeholder="Type a message..." />
+      <button id="sendBtn">Send</button>
+    </footer>
+  </div>
+</body>
+</html>
+
