@@ -1,0 +1,18 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Env and HTTP
+python-dotenv>=1.0.0
+httpx>=0.28.0
+
+# Memory layer (Mem0)
+mem0ai>=0.1.117
+
+# Azure SDKs used by this app
+azure-identity>=1.25.0
+azure-ai-projects>=1.0.0
+azure-ai-agents>=1.1.0
+
+# Optional but commonly needed by Azure SDKs
+azure-core>=1.30.0
+
